@@ -89,7 +89,8 @@ Hacen falta dos cuentas de Google. Con la primera se abre una lista y se pulsa e
 7 ejemplo visual:
 
   1) abrimos la app:
-     <img width="250" height="600" alt="image" src="https://github.com/user-attachments/assets/c51d4fee-b6ac-4326-b0ca-5acdb3448338" />
+  
+  <img width="250" height="600" alt="image" src="https://github.com/user-attachments/assets/c51d4fee-b6ac-4326-b0ca-5acdb3448338" />
   
   2) creamos nueva lista:
   <img width="250" height="600" alt="image" src="https://github.com/user-attachments/assets/c6a64eb8-8aa2-4d45-9089-e9750d03d7c7" />
@@ -103,8 +104,8 @@ Hacen falta dos cuentas de Google. Con la primera se abre una lista y se pulsa e
   
   4) compartimos la lista:
 
-     <img width="250" height="600" alt="image" src="https://github.com/user-attachments/assets/a9c8e8f8-4e2e-4121-a493-35c6781a3111" />
-     <img width="250" height="600" alt="image" src="https://github.com/user-attachments/assets/dedae5bd-58db-4c54-bc86-3aae63d78ac1" />
+  <img width="250" height="600" alt="image" src="https://github.com/user-attachments/assets/a9c8e8f8-4e2e-4121-a493-35c6781a3111" />
+  <img width="250" height="600" alt="image" src="https://github.com/user-attachments/assets/dedae5bd-58db-4c54-bc86-3aae63d78ac1" />
 
 
 
