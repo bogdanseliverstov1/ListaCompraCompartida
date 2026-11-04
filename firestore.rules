@@ -1,0 +1,23 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Una lista: solo la ven/editan las personas que están en "miembros" (por email).
+    match /listas/{listaId} {
+      allow create: if request.auth != null
+                    && request.resource.data.propietario == request.auth.token.email.lower()
+                    && request.auth.token.email.lower() in request.resource.data.miembros;
+      allow read, update: if request.auth != null
+                          && request.auth.token.email.lower() in resource.data.miembros;
+      allow delete: if request.auth != null
+                    && resource.data.propietario == request.auth.token.email.lower();
+
+      // Categorías y productos de la lista: mismos permisos que la lista.
+      match /{coleccion}/{documento} {
+        allow read, write: if request.auth != null
+          && request.auth.token.email.lower() in
+             get(/databases/$(database)/documents/listas/$(listaId)).data.miembros;
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "27528646290",
+    "project_id": "listacompracompartida-a9254",
+    "storage_bucket": "listacompracompartida-a9254.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27528646290:android:c98a8d33aec1217ee9604b",
+        "android_client_info": {
+          "package_name": "com.example.listacompra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27528646290-0riff3rohh5j9rcpv73olq1uktqtabl3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_mmZmBtcq7KxUd4kggyLLEcaxHo4lPhM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27528646290-0riff3rohh5j9rcpv73olq1uktqtabl3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
